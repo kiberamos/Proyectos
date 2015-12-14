@@ -1,0 +1,902 @@
+﻿[2015.12.14-01.34.03:893][  0]Log file open, 12/13/15 17:34:03
+[2015.12.14-01.34.03:893][  0]LogInit:Display: Running engine for game: MyProject6
+[2015.12.14-01.34.03:893][  0]LogInit:Display: RandInit(-656100078) SRandInit(-656100077).
+[2015.12.14-01.34.03:893][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.14-01.34.03:893][  0]LogStats: Stats thread started at 0.150880
+[2015.12.14-01.34.03:893][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.14-01.34.03:893][  0]LogInit: API Version: 2672455
+[2015.12.14-01.34.03:893][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.12.14-01.34.03:893][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.14-01.34.03:893][  0]LogInit: Build Configuration: Development
+[2015.12.14-01.34.03:893][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.12.14-01.34.03:893][  0]LogInit: Command line: -HTTP=WinInet
+[2015.12.14-01.34.03:893][  0]LogInit: Base directory: C:/Program Files/Epic Games/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.12.14-01.34.03:893][  0]LogInit: Rocket: 1
+[2015.12.14-01.34.03:934][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.14-01.34.03:950][  0]LogInit: Object subsystem initialized
+[2015.12.14-01.34.03:958][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.14-01.34.03:958][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.14-01.34.03:979][  0]LogInit: Computer: KIBERAMOS
+[2015.12.14-01.34.03:979][  0]LogInit: User: Sebastian
+[2015.12.14-01.34.03:979][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.14-01.34.03:979][  0]LogInit: High frequency timer resolution =2.533203 MHz
+[2015.12.14-01.34.03:979][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.12.14-01.34.03:979][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.14-01.34.03:979][  0]LogMemory: Process Physical Memory: 52.48 MB used, 52.48 MB peak
+[2015.12.14-01.34.03:980][  0]LogMemory: Process Virtual Memory: 58.00 MB used, 58.00 MB peak
+[2015.12.14-01.34.03:980][  0]LogMemory: Physical Memory: 4259.38 MB used, 16302.92 MB total
+[2015.12.14-01.34.03:980][  0]LogMemory: Virtual Memory: 367.64 MB used, 134217728.00 MB total
+[2015.12.14-01.34.04:060][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.14-01.34.05:849][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960M  (Feature Level 11_0)
+[2015.12.14-01.34.05:849][  0]LogD3D11RHI: Adapter has 3986MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 1 output[s]
+[2015.12.14-01.34.05:861][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.12.14-01.34.05:862][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.12.14-01.34.05:864][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.14-01.34.05:864][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.12.14-01.34.05:864][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.14-01.34.05:873][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.14-01.34.05:873][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.14-01.34.05:896][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.14-01.34.05:921][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Intermediate/Shaders/WorkingDirectory/11108/).
+[2015.12.14-01.34.05:921][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Intermediate/Shaders/tmp/2ECFF2854018CFDF70EAC69F184BA893/'.
+[2015.12.14-01.34.05:921][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.14-01.34.08:729][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.14-01.34.08:747][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.14-01.34.08:763][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.14-01.34.08:778][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.14-01.34.08:791][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.14-01.34.08:799][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.14-01.34.08:806][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.14-01.34.08:814][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.14-01.34.08:823][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.14-01.34.08:831][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.14-01.34.08:839][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.14-01.34.08:847][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.14-01.34.08:849][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.14-01.34.08:876][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.14-01.34.08:884][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.14-01.34.08:892][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.14-01.34.08:901][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.14-01.34.08:901][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.14-01.34.09:145][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.14-01.34.09:231][  0]LogDerivedDataCache: Loaded boot cache 0.09s 41MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.14-01.34.09:231][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sebastian/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.12.14-01.34.09:232][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.14-01.34.09:232][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.14-01.34.09:232][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.14-01.34.09:232][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.14-01.34.09:594][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.14-01.34.09:607][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sebastian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.14-01.34.10:012][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.14-01.34.10:019][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.14-01.34.10:322][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.14-01.34.10:322][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.14-01.34.10:993][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.14-01.34.12:981][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.14-01.34.13:128][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2015.12.14-01.34.13:554][  0]SourceControl: Info Source control is disabled
+[2015.12.14-01.34.13:670][  0]SourceControl: Info Source control is disabled
+[2015.12.14-01.34.13:710][  0]SourceControl: Info Source control is disabled
+[2015.12.14-01.34.13:744][  0]SourceControl: Info Source control is disabled
+[2015.12.14-01.34.14:197][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.14-01.34.14:407][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.12.14-01.34.14:407][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.12.14-01.34.14:524][  0]LogEngine: Initializing Engine...
+[2015.12.14-01.34.14:529][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.12.14-01.34.14:530][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.14-01.34.14:818][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.14-01.34.14:825][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-01.34.14:843][  0]LogInit: FAudioDevice initialized.
+[2015.12.14-01.34.14:879][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.14-01.34.14:885][  0]LogInit: Texture streaming: Enabled
+[2015.12.14-01.34.14:901][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.14-01.34.14:901][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.14-01.34.14:902][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId ec739107473fc3481e9e3bac043c9b0a|6c678e834aca4b4c8dfa588e8267074a|8efd7b13-f4d5-41d2-89e5-10f17711cc97
+[2015.12.14-01.34.14:902][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.14-01.34.14:962][  0]LogInit: Transaction tracking system initialized
+[2015.12.14-01.34.15:047][  0]BlueprintLog: New page: Editor Load
+[2015.12.14-01.34.17:978][  0]LocalizationService: Info Localization service is disabled
+[2015.12.14-01.34.18:514][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.12.14-01.34.18:515][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.12.14-01.34.18:515][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2015.12.14-01.34.18:572][  0]LogConsoleResponse:Display: 
+[2015.12.14-01.34.18:852][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.14-01.34.19:061][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/' took 0.01s
+[2015.12.14-01.34.19:061][  0]SourceControl: Info Source control is disabled
+[2015.12.14-01.34.19:063][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/Epic Games/4.9/FeaturePacks/StarterContent.upack)
+[2015.12.14-01.34.19:079][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2015.12.14-01.34.19:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2015.12.14-01.34.19:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2015.12.14-01.34.19:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2015.12.14-01.34.19:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2015.12.14-01.34.19:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2015.12.14-01.34.19:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2015.12.14-01.34.19:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2015.12.14-01.34.19:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2015.12.14-01.34.19:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2015.12.14-01.34.19:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2015.12.14-01.34.19:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2015.12.14-01.34.19:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Collapse01.uasset"
+[2015.12.14-01.34.19:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Collapse02.uasset"
+[2015.12.14-01.34.19:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2015.12.14-01.34.19:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Explosion01.uasset"
+[2015.12.14-01.34.19:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Explosion02.uasset"
+[2015.12.14-01.34.19:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2015.12.14-01.34.19:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Fire01.uasset"
+[2015.12.14-01.34.19:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2015.12.14-01.34.19:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2015.12.14-01.34.19:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2015.12.14-01.34.19:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Light01.uasset"
+[2015.12.14-01.34.19:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2015.12.14-01.34.19:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Light02.uasset"
+[2015.12.14-01.34.19:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2015.12.14-01.34.19:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Smoke01.uasset"
+[2015.12.14-01.34.19:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2015.12.14-01.34.19:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2015.12.14-01.34.19:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2015.12.14-01.34.19:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2015.12.14-01.34.19:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2015.12.14-01.34.19:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2015.12.14-01.34.19:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2015.12.14-01.34.19:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Steam01.uasset"
+[2015.12.14-01.34.19:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2015.12.14-01.34.19:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2015.12.14-01.34.19:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2015.12.14-01.34.19:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2015.12.14-01.34.19:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2015.12.14-01.34.19:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2015.12.14-01.34.19:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2015.12.14-01.34.19:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2015.12.14-01.34.19:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2015.12.14-01.34.19:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2015.12.14-01.34.19:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2015.12.14-01.34.19:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2015.12.14-01.34.19:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2015.12.14-01.34.19:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2015.12.14-01.34.19:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2015.12.14-01.34.19:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2015.12.14-01.34.19:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2015.12.14-01.34.19:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2015.12.14-01.34.19:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2015.12.14-01.34.19:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Maps/Minimal_Default.umap"
+[2015.12.14-01.34.19:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Maps/StarterMap.umap"
+[2015.12.14-01.34.19:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2015.12.14-01.34.19:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2015.12.14-01.34.19:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2015.12.14-01.34.19:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2015.12.14-01.34.19:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2015.12.14-01.34.19:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2015.12.14-01.34.19:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2015.12.14-01.34.19:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2015.12.14-01.34.19:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2015.12.14-01.34.19:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2015.12.14-01.34.19:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2015.12.14-01.34.19:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2015.12.14-01.34.19:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2015.12.14-01.34.19:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2015.12.14-01.34.19:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2015.12.14-01.34.19:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2015.12.14-01.34.19:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2015.12.14-01.34.19:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Glass.uasset"
+[2015.12.14-01.34.19:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2015.12.14-01.34.19:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2015.12.14-01.34.19:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2015.12.14-01.34.19:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2015.12.14-01.34.19:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2015.12.14-01.34.19:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2015.12.14-01.34.19:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2015.12.14-01.34.19:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2015.12.14-01.34.19:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2015.12.14-01.34.19:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2015.12.14-01.34.19:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2015.12.14-01.34.19:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2015.12.14-01.34.19:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2015.12.14-01.34.19:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2015.12.14-01.34.19:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2015.12.14-01.34.19:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2015.12.14-01.34.19:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2015.12.14-01.34.19:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2015.12.14-01.34.19:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2015.12.14-01.34.19:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2015.12.14-01.34.19:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2015.12.14-01.34.19:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2015.12.14-01.34.19:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2015.12.14-01.34.19:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2015.12.14-01.34.19:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2015.12.14-01.34.19:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2015.12.14-01.34.19:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/P_Explosion.uasset"
+[2015.12.14-01.34.19:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/P_Fire.uasset"
+[2015.12.14-01.34.19:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/P_Smoke.uasset"
+[2015.12.14-01.34.19:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/P_Sparks.uasset"
+[2015.12.14-01.34.19:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2015.12.14-01.34.19:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2015.12.14-01.34.19:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2015.12.14-01.34.19:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2015.12.14-01.34.19:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2015.12.14-01.34.19:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2015.12.14-01.34.19:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2015.12.14-01.34.19:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2015.12.14-01.34.19:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2015.12.14-01.34.19:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2015.12.14-01.34.19:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2015.12.14-01.34.19:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/MaterialSphere.uasset"
+[2015.12.14-01.34.19:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_Bush.uasset"
+[2015.12.14-01.34.19:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_Chair.uasset"
+[2015.12.14-01.34.19:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2015.12.14-01.34.19:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_Couch.uasset"
+[2015.12.14-01.34.19:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_Door.uasset"
+[2015.12.14-01.34.19:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2015.12.14-01.34.19:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2015.12.14-01.34.19:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2015.12.14-01.34.19:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2015.12.14-01.34.19:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2015.12.14-01.34.19:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2015.12.14-01.34.19:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2015.12.14-01.34.19:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_Rock.uasset"
+[2015.12.14-01.34.19:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_Shelf.uasset"
+[2015.12.14-01.34.19:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_Stairs.uasset"
+[2015.12.14-01.34.19:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_Statue.uasset"
+[2015.12.14-01.34.19:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_TableRound.uasset"
+[2015.12.14-01.34.19:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2015.12.14-01.34.19:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2015.12.14-01.34.19:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2015.12.14-01.34.19:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2015.12.14-01.34.19:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2015.12.14-01.34.19:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2015.12.14-01.34.19:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2015.12.14-01.34.19:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2015.12.14-01.34.19:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2015.12.14-01.34.19:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2015.12.14-01.34.19:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2015.12.14-01.34.19:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2015.12.14-01.34.19:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2015.12.14-01.34.19:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2015.12.14-01.34.19:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2015.12.14-01.34.19:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2015.12.14-01.34.19:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2015.12.14-01.34.19:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2015.12.14-01.34.19:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2015.12.14-01.34.19:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2015.12.14-01.34.19:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2015.12.14-01.34.19:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2015.12.14-01.34.19:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2015.12.14-01.34.19:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2015.12.14-01.34.19:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2015.12.14-01.34.19:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2015.12.14-01.34.19:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2015.12.14-01.34.19:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2015.12.14-01.34.19:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2015.12.14-01.34.19:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2015.12.14-01.34.19:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2015.12.14-01.34.19:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2015.12.14-01.34.19:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2015.12.14-01.34.19:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2015.12.14-01.34.19:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2015.12.14-01.34.19:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2015.12.14-01.34.20:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2015.12.14-01.34.20:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2015.12.14-01.34.20:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2015.12.14-01.34.20:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2015.12.14-01.34.20:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2015.12.14-01.34.20:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2015.12.14-01.34.20:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2015.12.14-01.34.20:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2015.12.14-01.34.20:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2015.12.14-01.34.20:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2015.12.14-01.34.20:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2015.12.14-01.34.20:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2015.12.14-01.34.20:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2015.12.14-01.34.20:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2015.12.14-01.34.20:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2015.12.14-01.34.20:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2015.12.14-01.34.20:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2015.12.14-01.34.20:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2015.12.14-01.34.20:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2015.12.14-01.34.20:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2015.12.14-01.34.20:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2015.12.14-01.34.20:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2015.12.14-01.34.20:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2015.12.14-01.34.20:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2015.12.14-01.34.20:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2015.12.14-01.34.20:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2015.12.14-01.34.20:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2015.12.14-01.34.20:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2015.12.14-01.34.20:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2015.12.14-01.34.20:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2015.12.14-01.34.20:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2015.12.14-01.34.20:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2015.12.14-01.34.20:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2015.12.14-01.34.20:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2015.12.14-01.34.20:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2015.12.14-01.34.20:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Door_M.uasset"
+[2015.12.14-01.34.20:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Door_N.uasset"
+[2015.12.14-01.34.20:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2015.12.14-01.34.20:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2015.12.14-01.34.20:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2015.12.14-01.34.20:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2015.12.14-01.34.20:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2015.12.14-01.34.20:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2015.12.14-01.34.20:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2015.12.14-01.34.20:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2015.12.14-01.34.20:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2015.12.14-01.34.20:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2015.12.14-01.34.20:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2015.12.14-01.34.20:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2015.12.14-01.34.20:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2015.12.14-01.34.20:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2015.12.14-01.34.20:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2015.12.14-01.34.20:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2015.12.14-01.34.20:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2015.12.14-01.34.20:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2015.12.14-01.34.20:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2015.12.14-01.34.20:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2015.12.14-01.34.20:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2015.12.14-01.34.20:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2015.12.14-01.34.20:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2015.12.14-01.34.20:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2015.12.14-01.34.20:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2015.12.14-01.34.20:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2015.12.14-01.34.20:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2015.12.14-01.34.20:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2015.12.14-01.34.20:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2015.12.14-01.34.20:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2015.12.14-01.34.20:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2015.12.14-01.34.20:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2015.12.14-01.34.20:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2015.12.14-01.34.20:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2015.12.14-01.34.20:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2015.12.14-01.34.20:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2015.12.14-01.34.20:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2015.12.14-01.34.20:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2015.12.14-01.34.20:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2015.12.14-01.34.20:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2015.12.14-01.34.20:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2015.12.14-01.34.20:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2015.12.14-01.34.20:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2015.12.14-01.34.20:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2015.12.14-01.34.20:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2015.12.14-01.34.20:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2015.12.14-01.34.20:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2015.12.14-01.34.20:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2015.12.14-01.34.20:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2015.12.14-01.34.20:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2015.12.14-01.34.20:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2015.12.14-01.34.20:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Water_M.uasset"
+[2015.12.14-01.34.20:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Water_N.uasset"
+[2015.12.14-01.34.20:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2015.12.14-01.34.20:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2015.12.14-01.34.20:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2015.12.14-01.34.20:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2015.12.14-01.34.21:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2015.12.14-01.34.21:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2015.12.14-01.34.21:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2015.12.14-01.34.21:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2015.12.14-01.34.21:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2015.12.14-01.34.21:278][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.12.14-01.34.21:432][  0]LogSavePackage: Save=31.642944ms
+[2015.12.14-01.34.21:432][  0]LogSavePackage: Moving '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Saved/Floor_400x40020BDC8EF440E34AE8B055897115DEF5E.tmp' to '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.12.14-01.34.21:439][  0]LogSavePackage: Total save time: 45.214299ms
+[2015.12.14-01.34.21:439][  0]LogSavePackage:Warning: Finished SavePackage ../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.12.14-01.34.21:440][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.12.14-01.34.21:444][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.14-01.34.21:445][  0]LightingResults: New page: Lighting Build
+[2015.12.14-01.34.21:454][  0]MapCheck: New page: Map Check
+[2015.12.14-01.34.21:454][  0]LightingResults: New page: Lighting Build
+[2015.12.14-01.34.21:480][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE22133B00
+[2015.12.14-01.34.21:485][  0]LogLinker:Warning: Asset '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.14-01.34.21:488][  0]LogLinker:Warning: Asset '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.14-01.34.21:492][  0]LogLinker:Warning: Asset '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.14-01.34.21:495][  0]LogLinker:Warning: Asset '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.14-01.34.21:498][  0]LogLinker:Warning: Asset '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.14-01.34.21:501][  0]LogLinker:Warning: Asset '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.14-01.34.21:501][  0]LogLinker:Warning: Asset '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.14-01.34.21:504][  0]LogLinker:Warning: Asset '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.14-01.34.21:506][  0]LogLinker:Warning: Asset '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.14-01.34.23:284][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.14-01.34.23:299][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.14-01.34.23:301][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.14-01.34.23:421][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 120.208ms to complete.
+[2015.12.14-01.34.23:421][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.978
+[2015.12.14-01.34.23:579][  0]LogCollectionManager: Loaded 0 collections in 0.005520 seconds
+[2015.12.14-01.34.23:633][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Documents/Unreal Projects/MyProject6/Saved/Collections/' took 0.01s
+[2015.12.14-01.34.23:633][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/Developers/Sebastian/Collections/' took 0.01s
+[2015.12.14-01.34.23:633][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/Collections/' took 0.01s
+[2015.12.14-01.34.23:633][  0]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 1867 classes and 333 folders.
+[2015.12.14-01.34.23:644][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2015.12.14-01.34.23:659][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.12.14-01.34.23:766][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.12.14-01.34.23:780][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2015.12.14-01.34.23:837][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.14-01.34.23:844][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.14-01.34.23:873][  0]LogLoad: Full Startup: 21.20 seconds (BP compile: 0.27 seconds)
+[2015.12.14-01.34.24:961][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.14-01.34.25:241][  0]LogRenderer: Reallocating scene render targets to support 760x528 (Frame:3).
+[2015.12.14-01.34.28:220][  9]LogAssetRegistry: Asset discovery search completed in 15.1035 seconds
+[2015.12.14-01.34.28:220][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2015.12.14-01.34.28:220][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2015.12.14-01.37.18:914][ 69]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2015.12.14-01.37.18:989][ 69]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.12.14-01.37.20:427][222]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.12.14-01.37.43:711][727]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.12.14-01.37.44:536][812]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.12.14-01.38.55:610][467]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.12.14-01.39.02:290][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bump_StaticMesh)
+[2015.12.14-01.39.55:107][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2015.12.14-01.39.56:415][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2015.12.14-01.39.57:178][128]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2015.12.14-01.40.08:931][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LeftArm_StaticMesh)
+[2015.12.14-01.40.08:973][387]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.12.14-01.40.12:412][770]Cmd: TRANSACTION UNDO
+[2015.12.14-01.40.12:415][770]LogEditorTransaction: Undo Move Components
+[2015.12.14-01.40.13:282][832]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2015.12.14-01.42.09:821][496]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.14-01.42.10:437][496]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
+[2015.12.14-01.43.59:033][154]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2015.12.14-01.44.49:467][118]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.14-01.44.49:471][118]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.12.14-01.44.49:887][118]LogSavePackage: Save=354.934052ms
+[2015.12.14-01.44.49:887][118]LogSavePackage: Moving '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Saved/ThirdPersonExampleMap_Auto18B4E9D56428E86851517D7B2D00ECF6A.tmp' to '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2015.12.14-01.44.49:889][118]LogSavePackage: Total save time: 368.137099ms
+[2015.12.14-01.44.49:889][118]LogSavePackage:Warning: Finished SavePackage ../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2015.12.14-01.44.49:893][118]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.425
+[2015.12.14-01.44.49:893][118]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.425
+[2015.12.14-01.45.14:566][108]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.12.14-01.45.16:584][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.14-01.45.18:044][375]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.12.14-01.47.51:201][994]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2015.12.14-01.47.51:293][994]BlueprintEditorCompileResults: Info [0831.46] Compile of ThirdPersonExampleMap successful! [in 91 ms]
+[2015.12.14-01.47.59:995][511]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.47.59:995][511]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.14-01.47.59:997][511]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 13, 2015, 9:47:59 AM)
+[2015.12.14-01.47.59:997][511]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.12.14-01.48.00:032][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034604s)
+[2015.12.14-01.48.00:033][511]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.14-01.48.00:034][511]LogPlayLevel: PIE: World Init took: (0.001553s)
+[2015.12.14-01.48.00:034][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.036731s)
+[2015.12.14-01.48.00:101][511]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-01.48.00:109][511]LogInit: FAudioDevice initialized.
+[2015.12.14-01.48.00:165][511]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.14-01.48.00:176][511]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.12.13-17.48.00
+[2015.12.14-01.48.00:176][511]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-01.48.00:176][511]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-01.48.00:179][511]LogWorld: Bringing up level for play took: 0.008449
+[2015.12.14-01.48.00:190][511]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.463
+[2015.12.14-01.48.00:191][511]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.48.14:460][682]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.48.14:522][682]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.48.14:578][682]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE1E46D940
+[2015.12.14-01.49.03:754][114]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2015.12.14-01.49.03:840][114]BlueprintEditorCompileResults: Info [0904.01] Compile of ThirdPersonExampleMap successful! [in 85 ms]
+[2015.12.14-01.49.07:001][360]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.49.07:001][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.14-01.49.07:001][360]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 13, 2015, 9:49:07 AM)
+[2015.12.14-01.49.07:001][360]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.12.14-01.49.07:031][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029536s)
+[2015.12.14-01.49.07:032][360]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.14-01.49.07:032][360]LogPlayLevel: PIE: World Init took: (0.001598s)
+[2015.12.14-01.49.07:032][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031388s)
+[2015.12.14-01.49.07:103][360]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-01.49.07:111][360]LogInit: FAudioDevice initialized.
+[2015.12.14-01.49.07:141][360]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.14-01.49.07:147][360]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.12.13-17.49.07
+[2015.12.14-01.49.07:147][360]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-01.49.07:147][360]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-01.49.07:148][360]LogWorld: Bringing up level for play took: 0.005550
+[2015.12.14-01.49.07:149][360]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.495
+[2015.12.14-01.49.07:149][360]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.49.57:942][315]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.49.57:998][315]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.49.58:025][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE22125A80
+[2015.12.14-01.54.20:394][160]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2015.12.14-01.54.20:421][160]LogBlueprint:Error: [compiler ThirdPersonExampleMap] Error The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2015.12.14-01.54.20:421][160]LogBlueprint:Error: [compiler ThirdPersonExampleMap] Error The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2015.12.14-01.54.20:424][160]LogBlueprint:Error: [compiler ThirdPersonExampleMap] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2015.12.14-01.54.20:425][160]LogBlueprint:Error: [compiler ThirdPersonExampleMap] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2015.12.14-01.54.20:553][160]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE10D6C0E0
+[2015.12.14-01.54.20:561][160]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1220.73] Compile of ThirdPersonExampleMap failed. 4 Fatal Issue(s) 0 Warning(s) [in 166 ms]
+[2015.12.14-01.54.20:561][160]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2015.12.14-01.54.20:561][160]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2015.12.14-01.54.20:561][160]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2015.12.14-01.54.20:561][160]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2015.12.14-01.54.20:561][160]BlueprintEditorCompileResults:Warning: Warning [1220.73] Compile of ThirdPersonExampleMap failed. 4 Fatal Issue(s) 0 Warning(s) [in 166 ms]
+[2015.12.14-01.54.39:023][286]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2015.12.14-01.54.39:046][286]LogBlueprint:Error: [compiler ThirdPersonExampleMap] Error The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2015.12.14-01.54.39:046][286]LogBlueprint:Error: [compiler ThirdPersonExampleMap] Error The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2015.12.14-01.54.39:046][286]LogBlueprint:Error: [compiler ThirdPersonExampleMap] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2015.12.14-01.54.39:047][286]LogBlueprint:Error: [compiler ThirdPersonExampleMap] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2015.12.14-01.54.39:171][286]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1239.34] Compile of ThirdPersonExampleMap failed. 4 Fatal Issue(s) 0 Warning(s) [in 147 ms]
+[2015.12.14-01.54.39:171][286]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2015.12.14-01.54.39:171][286]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2015.12.14-01.54.39:171][286]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2015.12.14-01.54.39:171][286]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2015.12.14-01.54.39:171][286]BlueprintEditorCompileResults:Warning: Warning [1239.34] Compile of ThirdPersonExampleMap failed. 4 Fatal Issue(s) 0 Warning(s) [in 147 ms]
+[2015.12.14-01.54.40:832][395]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2015.12.14-01.54.40:851][395]LogBlueprint:Error: [compiler ThirdPersonExampleMap] Error The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2015.12.14-01.54.40:851][395]LogBlueprint:Error: [compiler ThirdPersonExampleMap] Error The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2015.12.14-01.54.40:851][395]LogBlueprint:Error: [compiler ThirdPersonExampleMap] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2015.12.14-01.54.40:852][395]LogBlueprint:Error: [compiler ThirdPersonExampleMap] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2015.12.14-01.54.40:972][395]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1241.14] Compile of ThirdPersonExampleMap failed. 4 Fatal Issue(s) 0 Warning(s) [in 139 ms]
+[2015.12.14-01.54.40:972][395]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2015.12.14-01.54.40:972][395]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2015.12.14-01.54.40:972][395]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2015.12.14-01.54.40:972][395]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2015.12.14-01.54.40:972][395]BlueprintEditorCompileResults:Warning: Warning [1241.14] Compile of ThirdPersonExampleMap failed. 4 Fatal Issue(s) 0 Warning(s) [in 139 ms]
+[2015.12.14-01.54.57:992][524]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2015.12.14-01.54.58:015][524]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.54.58:015][524]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.54.58:092][524]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1258.26] Compile of ThirdPersonExampleMap successful, but with 2 Warning(s) [in 99 ms]
+[2015.12.14-01.54.58:092][524]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.54.58:092][524]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.54.58:092][524]BlueprintEditorCompileResults:Warning: Warning [1258.26] Compile of ThirdPersonExampleMap successful, but with 2 Warning(s) [in 99 ms]
+[2015.12.14-01.55.24:913][325]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2015.12.14-01.55.24:932][325]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.55.24:932][325]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.55.25:006][325]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1285.18] Compile of ThirdPersonExampleMap successful, but with 2 Warning(s) [in 93 ms]
+[2015.12.14-01.55.25:006][325]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.55.25:006][325]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.55.25:006][325]BlueprintEditorCompileResults:Warning: Warning [1285.18] Compile of ThirdPersonExampleMap successful, but with 2 Warning(s) [in 93 ms]
+[2015.12.14-01.55.29:806][678]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.55.29:806][678]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.12.14-01.55.29:806][678]LogPlayLevel: [PlayLevel] Compiling StandardMacros before play...
+[2015.12.14-01.55.29:959][678]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.55.29:959][678]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.55.30:063][678]LogPlayLevel: PlayLevel: Blueprint regeneration took 257 ms (5 blueprints)
+[2015.12.14-01.55.30:065][678]LogPlayLevel: [PlayLevel] Compiling BP_Sky_Sphere before play...
+[2015.12.14-01.55.30:156][678]LogPlayLevel: PlayLevel: Blueprint regeneration took 350 ms (5 blueprints)
+[2015.12.14-01.55.30:156][678]LogPlayLevel: [PlayLevel] Compiling RenderToTextureMacros before play...
+[2015.12.14-01.55.30:215][678]LogPlayLevel: PlayLevel: Blueprint regeneration took 410 ms (5 blueprints)
+[2015.12.14-01.55.30:218][678]LogPlayLevel: [PlayLevel] Compiling ThirdPerson_AnimBP before play...
+[2015.12.14-01.55.30:297][678]LogPlayLevel: PlayLevel: Blueprint regeneration took 492 ms (5 blueprints)
+[2015.12.14-01.55.30:299][678]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2015.12.14-01.55.30:315][678]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.55.30:315][678]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.55.30:318][678]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1290.49] Compile of ThirdPersonExampleMap successful, but with 2 Warning(s) [in 14 ms]
+[2015.12.14-01.55.30:318][678]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1290.49] Compile of ThirdPersonExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.14-01.55.30:318][678]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1290.49] Compile of ThirdPersonExampleMap successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.14-01.55.30:357][678]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1290.53] Compile of ThirdPersonExampleMap successful, but with 5 Warning(s) [in 38 ms]
+[2015.12.14-01.55.30:359][678]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1290.53] Compile of ThirdPersonExampleMap successful, but with 6 Warning(s) [in 2 ms]
+[2015.12.14-01.55.30:360][678]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1290.53] Compile of ThirdPersonExampleMap successful, but with 7 Warning(s) [in 0 ms]
+[2015.12.14-01.55.30:360][678]LogPlayLevel: PlayLevel: Blueprint regeneration took 554 ms (5 blueprints)
+[2015.12.14-01.55.30:397][678]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 13, 2015, 9:55:30 AM)
+[2015.12.14-01.55.30:397][678]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.12.14-01.55.30:425][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028817s)
+[2015.12.14-01.55.30:427][678]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.14-01.55.30:427][678]LogPlayLevel: PIE: World Init took: (0.001666s)
+[2015.12.14-01.55.30:427][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.030770s)
+[2015.12.14-01.55.30:484][678]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-01.55.30:492][678]LogInit: FAudioDevice initialized.
+[2015.12.14-01.55.30:522][678]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.14-01.55.30:528][678]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.12.13-17.55.30
+[2015.12.14-01.55.30:528][678]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-01.55.30:529][678]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-01.55.30:529][678]LogWorld: Bringing up level for play took: 0.005526
+[2015.12.14-01.55.30:530][678]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.123
+[2015.12.14-01.55.30:530][678]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.55.45:754][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.55.45:810][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.55.45:854][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE3B9C8C20
+[2015.12.14-01.56.06:508][839]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2015.12.14-01.56.06:530][839]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.56.06:530][839]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.56.06:606][839]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1326.78] Compile of ThirdPersonExampleMap successful, but with 2 Warning(s) [in 97 ms]
+[2015.12.14-01.56.06:606][839]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.56.06:606][839]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.56.06:606][839]BlueprintEditorCompileResults:Warning: Warning [1326.78] Compile of ThirdPersonExampleMap successful, but with 2 Warning(s) [in 97 ms]
+[2015.12.14-01.56.06:696][845]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2015.12.14-01.56.06:714][845]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.56.06:714][845]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.56.06:794][845]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1326.96] Compile of ThirdPersonExampleMap successful, but with 2 Warning(s) [in 98 ms]
+[2015.12.14-01.56.06:794][845]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.56.06:794][845]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.56.06:794][845]BlueprintEditorCompileResults:Warning: Warning [1326.96] Compile of ThirdPersonExampleMap successful, but with 2 Warning(s) [in 98 ms]
+[2015.12.14-01.56.11:812][183]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.56.11:813][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.14-01.56.11:813][183]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 13, 2015, 9:56:11 AM)
+[2015.12.14-01.56.11:813][183]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.12.14-01.56.11:847][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033752s)
+[2015.12.14-01.56.11:848][183]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.14-01.56.11:848][183]LogPlayLevel: PIE: World Init took: (0.001368s)
+[2015.12.14-01.56.11:848][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.035358s)
+[2015.12.14-01.56.11:906][183]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-01.56.11:915][183]LogInit: FAudioDevice initialized.
+[2015.12.14-01.56.11:951][183]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.14-01.56.11:958][183]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.12.13-17.56.11
+[2015.12.14-01.56.11:958][183]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-01.56.11:958][183]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-01.56.11:958][183]LogWorld: Bringing up level for play took: 0.005975
+[2015.12.14-01.56.11:959][183]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.694
+[2015.12.14-01.56.11:960][183]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.56.24:046][334]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.56.24:101][334]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.56.24:129][334]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE33E63A60
+[2015.12.14-01.56.38:560][475]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.56.38:561][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.14-01.56.38:561][475]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 13, 2015, 9:56:38 AM)
+[2015.12.14-01.56.38:561][475]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.12.14-01.56.38:591][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030352s)
+[2015.12.14-01.56.38:592][475]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.14-01.56.38:592][475]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2015.12.14-01.56.38:592][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031601s)
+[2015.12.14-01.56.38:649][475]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-01.56.38:656][475]LogInit: FAudioDevice initialized.
+[2015.12.14-01.56.38:687][475]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.14-01.56.38:693][475]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.12.13-17.56.38
+[2015.12.14-01.56.38:693][475]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-01.56.38:693][475]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-01.56.38:694][475]LogWorld: Bringing up level for play took: 0.006189
+[2015.12.14-01.56.38:695][475]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.041
+[2015.12.14-01.56.38:695][475]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.57.37:058][205]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.57.37:114][205]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.57.37:162][205]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE1316DEE0
+[2015.12.14-01.57.48:616][161]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.57.48:616][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.14-01.57.48:616][161]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 13, 2015, 9:57:48 AM)
+[2015.12.14-01.57.48:616][161]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.12.14-01.57.48:651][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034497s)
+[2015.12.14-01.57.48:652][161]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.14-01.57.48:652][161]LogPlayLevel: PIE: World Init took: (0.001088s)
+[2015.12.14-01.57.48:652][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.035840s)
+[2015.12.14-01.57.48:711][161]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-01.57.48:718][161]LogInit: FAudioDevice initialized.
+[2015.12.14-01.57.48:752][161]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.14-01.57.48:758][161]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.12.13-17.57.48
+[2015.12.14-01.57.48:758][161]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-01.57.48:758][161]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-01.57.48:758][161]LogWorld: Bringing up level for play took: 0.005711
+[2015.12.14-01.57.48:759][161]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.107
+[2015.12.14-01.57.48:760][161]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.57.53:354][696]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.57.53:413][696]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.57.53:442][696]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE3C61C0E0
+[2015.12.14-01.59.36:013][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.59.36:014][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.14-01.59.36:014][460]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 13, 2015, 9:59:36 AM)
+[2015.12.14-01.59.36:014][460]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.12.14-01.59.36:047][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032862s)
+[2015.12.14-01.59.36:049][460]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.14-01.59.36:049][460]LogPlayLevel: PIE: World Init took: (0.002664s)
+[2015.12.14-01.59.36:050][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.035800s)
+[2015.12.14-01.59.36:118][460]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-01.59.36:125][460]LogInit: FAudioDevice initialized.
+[2015.12.14-01.59.36:162][460]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.14-01.59.36:168][460]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.12.13-17.59.36
+[2015.12.14-01.59.36:168][460]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-01.59.36:168][460]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-01.59.36:169][460]LogWorld: Bringing up level for play took: 0.006076
+[2015.12.14-01.59.36:170][460]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.483
+[2015.12.14-01.59.36:170][460]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.59.47:430][778]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.59.47:488][778]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.14-01.59.47:516][778]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE12F4FCE0
+[2015.12.14-01.59.49:163][916]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.59.49:163][916]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning 'Item' is already a 'Third Person Character', you don't need  Cast To ThirdPersonCharacter .
+[2015.12.14-01.59.49:166][916]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1549.33] Compile of ThirdPersonExampleMap successful, but with 2 Warning(s) [in 16 ms]
+[2015.12.14-01.59.49:166][916]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1549.34] Compile of ThirdPersonExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.14-01.59.49:166][916]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1549.34] Compile of ThirdPersonExampleMap successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.14-01.59.49:206][916]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1549.37] Compile of ThirdPersonExampleMap successful, but with 5 Warning(s) [in 39 ms]
+[2015.12.14-01.59.49:209][916]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1549.38] Compile of ThirdPersonExampleMap successful, but with 6 Warning(s) [in 2 ms]
+[2015.12.14-01.59.49:209][916]LogBlueprint:Warning: [compiler ThirdPersonExampleMap] Warning [1549.38] Compile of ThirdPersonExampleMap successful, but with 7 Warning(s) [in 0 ms]
+[2015.12.14-01.59.49:567][916]LogSavePackage: Save=422.919922ms
+[2015.12.14-01.59.49:567][916]LogSavePackage: Moving '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Saved/ThirdPersonExampleMap45490BE3494465134619FDBD5E8EFD5C.tmp' to '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.12.14-01.59.49:571][916]LogSavePackage: Total save time: 439.970665ms
+[2015.12.14-01.59.49:571][916]LogSavePackage:Warning: Finished SavePackage ../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2015.12.14-02.01.02:240][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EditorBlueprintResources/StandardMacros" FILE="../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" SILENT=true
+[2015.12.14-02.01.02:480][385]LogSavePackage: Save=229.251266ms
+[2015.12.14-02.01.02:480][385]LogSavePackage: Moving '../../../../../../../Users/Sebastian/Documents/Unreal Projects/MyProject6/Saved/StandardMacrosEFEAA550461D9CB1DF4C6FBE911F499E.tmp' to '../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset'
+[2015.12.14-02.01.02:484][385]LogSavePackage: Total save time: 242.725119ms
+[2015.12.14-02.01.02:484][385]LogSavePackage:Warning: Finished SavePackage ../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset
+[2015.12.14-02.01.05:527][661]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.14-02.01.05:858][662]Cmd: QUIT_EDITOR
+[2015.12.14-02.01.06:610][662]LogExit: Preparing to exit.
+[2015.12.14-02.01.07:785][662]LogExit: Editor shut down
+[2015.12.14-02.01.07:785][662]LogExit: Transaction tracking system shut down
+[2015.12.14-02.01.07:786][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE09821760
+[2015.12.14-02.01.07:788][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE1182B240
+[2015.12.14-02.01.07:788][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE27B61F80
+[2015.12.14-02.01.07:788][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE1E3EBEC0
+[2015.12.14-02.01.07:788][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE19D663E0
+[2015.12.14-02.01.07:789][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE1E23C220
+[2015.12.14-02.01.07:972][662]LogExit: Object subsystem successfully closed.
+[2015.12.14-02.01.07:992][662]LogD3D11RHI: Shutdown
+[2015.12.14-02.01.07:992][662]LogD3D11RHI: CleanupD3DDevice
+[2015.12.14-02.01.08:067][662]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.14-02.01.08:088][662]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.12.14-02.01.08:088][662]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.12.14-02.01.08:088][662]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.12.14-02.01.08:088][662]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.12.14-02.01.08:088][662]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.12.14-02.01.08:088][662]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.12.14-02.01.08:089][662]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.12.14-02.01.08:089][662]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.12.14-02.01.08:089][662]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.12.14-02.01.08:089][662]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.12.14-02.01.08:089][662]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.12.14-02.01.08:090][662]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.12.14-02.01.08:813][662]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.12.14-02.01.08:814][662]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.12.14-02.01.08:814][662]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.12.14-02.01.08:814][662]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.12.14-02.01.08:814][662]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.12.14-02.01.08:815][662]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.12.14-02.01.08:815][662]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.12.14-02.01.08:815][662]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.12.14-02.01.08:815][662]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.12.14-02.01.08:815][662]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.12.14-02.01.08:815][662]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.12.14-02.01.08:815][662]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.12.14-02.01.08:815][662]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.12.14-02.01.08:815][662]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.12.14-02.01.08:815][662]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.12.14-02.01.08:815][662]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.12.14-02.01.08:815][662]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.12.14-02.01.08:815][662]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.12.14-02.01.08:815][662]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.12.14-02.01.08:894][662]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.12.14-02.01.08:894][662]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.12.14-02.01.08:894][662]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.12.14-02.01.08:894][662]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.12.14-02.01.08:894][662]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.12.14-02.01.08:894][662]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.12.14-02.01.08:894][662]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.12.14-02.01.08:894][662]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.12.14-02.01.08:907][662]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.12.14-02.01.08:908][662]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.12.14-02.01.08:908][662]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.12.14-02.01.08:909][662]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.12.14-02.01.08:909][662]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.12.14-02.01.08:957][662]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.12.14-02.01.08:957][662]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.12.14-02.01.08:958][662]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.12.14-02.01.09:058][662]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.12.14-02.01.09:058][662]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.12.14-02.01.09:058][662]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.12.14-02.01.09:060][662]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.12.14-02.01.09:060][662]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.12.14-02.01.09:060][662]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.12.14-02.01.09:060][662]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.12.14-02.01.09:060][662]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.12.14-02.01.09:061][662]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.12.14-02.01.09:061][662]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.12.14-02.01.09:061][662]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.12.14-02.01.09:061][662]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.12.14-02.01.09:061][662]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.12.14-02.01.09:061][662]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.12.14-02.01.09:061][662]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.12.14-02.01.09:061][662]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.12.14-02.01.09:061][662]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.12.14-02.01.09:061][662]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.12.14-02.01.09:061][662]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.12.14-02.01.09:063][662]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.12.14-02.01.09:063][662]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.12.14-02.01.09:063][662]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.12.14-02.01.09:063][662]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.12.14-02.01.09:063][662]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.12.14-02.01.09:063][662]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.12.14-02.01.09:063][662]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.12.14-02.01.09:063][662]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.12.14-02.01.09:063][662]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.12.14-02.01.09:063][662]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.12.14-02.01.09:064][662]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.12.14-02.01.09:110][662]LogDerivedDataCache: Shutdown
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.12.14-02.01.09:110][662]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.12.14-02.01.09:611][662]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.12.14-02.01.09:611][662]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.14-02.01.09:611][662]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.14-02.01.09:611][662]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.14-02.01.09:611][662]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.14-02.01.09:611][662]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.14-02.01.09:614][662]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.14-02.01.09:614][662]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.14-02.01.09:614][662]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.14-02.01.09:614][662]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.14-02.01.09:614][662]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.14-02.01.09:614][662]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.14-02.01.09:614][662]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.14-02.01.09:614][662]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.14-02.01.09:614][662]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.14-02.01.09:614][662]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.14-02.01.09:615][662]LogExit: Exiting.
+[2015.12.14-02.01.09:629][662]Log file closed, 12/13/15 18:01:09
